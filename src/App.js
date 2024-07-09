@@ -5,17 +5,17 @@ function App() {
   return (
     <div className="App">
       <div className=''>
-<container className= " mt-10 p-28 bg-orange-500">\
+<div className= " ml-6 mt-10 p-10 bg-orange-500">\
   
-  </container>    
-  <container className= " ml-6 mt-10 p-28 bg-orange-500">\
+  </div>    
+  <div className= " ml-6 mt-10 p-28 bg-orange-500">\
   
-  </container>  
-  <container className= " ml-6 mt-10 p-28 bg-orange-500">\
+  </div>  
+  <div className= " ml-6 mt-10 p-28 bg-orange-500">\
   
-  </container>  
+  </div>  
   <div>
-  <div className= " border-emerald-800 ml-6 mt-10 mb-10 p-10 bg-orange-500">
+  <div className= " border-emerald-800 ml-6 mt-10 mb-10 p-10 bg-emerald-500">
                Start Start Start
   </div> 
 
@@ -27,6 +27,31 @@ function App() {
 </div>
 
   </div> 
+
+<div className=' h-64 w-64 ml-6 mt-4 p-4 bg-emerald-600'>
+  jj
+</div>
+
+<div className="flex flex-col items-center">
+        <div className="mt-10 p-28 bg-orange-500">
+          Row 1
+        </div>
+        <div className="mt-10 p-28 bg-orange-500">
+          Row 2
+        </div>
+        <div className="mt-10 p-28 bg-orange-500">
+          Row 3
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-4 p-10 bg-gray-700 mt-6">
+  <div class=" p-12 bg-slate-950">01</div>
+  <div class="...">02</div>
+  <div class=" h-60 w-64 bg-slate-950 text-white">01</div>
+
+  </div>
+
+
       {/* Static Background Image */}
       <div className="relative h-screen bg-fixed bg-cover bg-center">
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white">

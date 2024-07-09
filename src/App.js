@@ -28,8 +28,23 @@ function App() {
 
   </div> 
 
-<div className=' h-64 w-64 ml-6 mt-4 p-4 bg-emerald-600'>
+  <div class=" ml-12 mr-12 grid grid-cols-3 gap-12 p-10 bg-gray-700 mt-6">
+
+
+  <div className="relative  ml-2 mb-4 p-8 bg-emerald-600" style={{ marginTop: '-2rem' }}>
+  <p> We are who we become, hhhhhhhhhhhhhhh
+    hhhhhhhh
+    hhhhhhhhhhhhhh
+    hhhhhhhhhh</p>
+</div>
+
+<div className="relative  ml-2 mb-4 p-4 bg-emerald-600" style={{ marginTop: '-6rem' }}>
   jj
+</div>
+<div className="relative  ml-2 mb-4 p-4 bg-emerald-600" style={{ marginTop: '-2rem' }}>
+  jj
+</div>
+
 </div>
 
 <div className="flex flex-col items-center">
@@ -47,7 +62,7 @@ function App() {
       <div class="grid grid-cols-4 gap-4 p-10 bg-gray-700 mt-6">
   <div class=" p-12 bg-slate-950">01</div>
   <div class=" bg-emerald-500 col-span-2">02</div>
-  <div class=" h-60 w-64 bg-slate-950 text-white">01</div>
+  <div class=" p-12 bg-slate-950 text-white">01</div>
 
   </div>
 

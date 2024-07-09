@@ -5,17 +5,17 @@ function App() {
   return (
     <div className="App">
       <div className=''>
-<div className= " ml-6 mt-10 p-10 bg-orange-500">\
-  
-  </div>    
-  <div className= " ml-6 mt-10 p-28 bg-orange-500">\
-  
-  </div>  
+      <div class="flex md:flex md:flex-grow flex-row justify-end space-x-1">
+  <a href="" class="py-4 px-2 text-teal-500 border-b-4 border-teal-300 font-semibold">Home</a>
+  <a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-teal-300 transition duration-300">Services</a>
+  <a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-teal-300 transition duration-300">About</a>
+  <a href="" class="py-4 px-2 text-gray-500 font-semibold hover:text-teal-300 transition duration-300">Contact Us</a>
+</div>
   <div className= " ml-6 mt-10 p-28 bg-orange-500">\
   
   </div>  
   <div>
-  <div className= " border-emerald-800 ml-6 mt-10 mb-10 p-10 bg-emerald-500">
+  <div className= " justify-items-end border-emerald-800 ml-6 mt-10 mb-10 p-10 bg-emerald-500">
                Start Start Start
   </div> 
 
@@ -38,7 +38,7 @@ function App() {
     hhhhhhhhhh</p>
 </div>
 
-<div className="relative  ml-2 mb-4 p-4 bg-emerald-600" style={{ marginTop: '-6rem' }}>
+<div className="content-end relative  ml-2 mb-4 p-4 bg-emerald-600" style={{ marginTop: '-6rem' }}>
   jj
 </div>
 <div className="relative  ml-2 mb-4 p-4 bg-emerald-600" style={{ marginTop: '-2rem' }}>
@@ -46,6 +46,9 @@ function App() {
 </div>
 
 </div>
+
+
+
 
 <div className="flex flex-col items-center">
         <div className="mt-10 p-28 bg-orange-500">

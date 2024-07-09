@@ -42,9 +42,8 @@ function App() {
           <p className="mb-8">Complete integrated security solutions and services...</p>
 
           {/* Additional Sections */}
-          <div className="grid grid-cols-3 gap-5">
+          <div className="grid grid-cols-2 gap-5">
             <div className="bg-red-200 p-4">Electro-Optical Devices</div>
-            <div className="bg-red-300 p-4">Unattended Ground Sensors</div>
             <div className="bg-red-400 p-4">Portable Optical Devices</div>
             <div className="bg-red-500 p-4">Wireless Multi-Sensor</div>
             <div className="bg-red-600 p-4">Special Client Solution</div>

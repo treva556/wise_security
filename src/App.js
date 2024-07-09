@@ -4,8 +4,29 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     ppp
-     lll
+      <div className=''>
+<container className= " mt-10 p-28 bg-orange-500">\
+  
+  </container>    
+  <container className= " ml-6 mt-10 p-28 bg-orange-500">\
+  
+  </container>  
+  <container className= " ml-6 mt-10 p-28 bg-orange-500">\
+  
+  </container>  
+  <div>
+  <div className= " border-emerald-800 ml-6 mt-10 mb-10 p-10 bg-orange-500">
+               Start Start Start
+  </div> 
+
+    <div className= " ml-6 p-10 bg-orange-500">\
+</div>
+
+  </div>
+  <div className= " ml-6 p-12 mt-5 bg-emerald-900">\
+</div>
+
+  </div> 
       {/* Static Background Image */}
       <div className="relative h-screen bg-fixed bg-cover bg-center">
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white">

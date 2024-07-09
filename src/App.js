@@ -20,7 +20,7 @@ function App() {
       </div>
 
       {/* Scrollable Content */}
-      <div className="bg-white">
+      <div className=" bg-red-100 ml-6 mr-6">
         <div className="container mx-auto p-8">
           <h2 className="text-3xl font-bold mb-4">Who We Are?</h2>
           <p className="mb-8">Complete integrated security solutions and services...</p>
@@ -37,7 +37,7 @@ function App() {
       </div>
 
       {/* Footer Section */}
-      <footer className="bg-gray-800 text-white py-8">
+      <footer className=" bg-red-900 text-white py-8">
         <div className="container mx-auto text-center">
           <p>Complete integrated security solutions and services to customers worldwide.</p>
           <p>Contact: info@defenguard.com</p>

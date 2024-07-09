@@ -44,9 +44,9 @@ function App() {
         </div>
       </div>
 
-      <div class="grid grid-cols-3 gap-4 p-10 bg-gray-700 mt-6">
+      <div class="grid grid-cols-4 gap-4 p-10 bg-gray-700 mt-6">
   <div class=" p-12 bg-slate-950">01</div>
-  <div class="...">02</div>
+  <div class=" bg-emerald-500 col-span-2">02</div>
   <div class=" h-60 w-64 bg-slate-950 text-white">01</div>
 
   </div>

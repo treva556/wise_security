@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './App.css';
-import image11 from './assets/Group 37.png';
+import image11 from './assets/Group37.png';
 
 function App() {
   return (
@@ -54,7 +54,7 @@ function App() {
           <p> we are didicated...</p>
           </div>
           <div className="w-full col-span-1">
-            <img src={image11} alt="Group 37" className="w-full" />
+            <img src={image11} alt="Group 37" className=" w-32 h-40" />
           </div>
         </div>
       </div>

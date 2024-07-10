@@ -22,6 +22,7 @@ function App() {
             <p className=' text-7xl'>
               WCS
               </p> 
+              <p className=' text-3xl mt-3 text-yellow-50'> " Ahead of Threats"</p>
       </div>
 
       {/* Scrollable Content */}
@@ -48,6 +49,18 @@ function App() {
             <div className="bg-red-500 p-4">Wireless Multi-Sensor</div>
             <div className="bg-red-600 p-4">Special Client Solution</div>
           </div>
+        </div>
+      </div>
+
+      <div className=" columns-2 bg-red-100 ml-6 mr-6 mt-4">
+        <div className="container mx-auto p-8">
+          <h2 className=" text-3xl font-bold mb-4">Why Us?</h2>
+      <div className="w-full">
+              <img src={image11} alt="Group 37" className="w-full" />
+            </div>
+          {/* Additional Sections */}
+          
+         
         </div>
       </div>
 

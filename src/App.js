@@ -28,7 +28,7 @@ function App() {
       <div className=" bg-red-100 ml-6 mr-6 z-10">
         <div className="container mx-auto p-8">
           <h2 className="text-3xl font-bold mb-4">Who We Are?</h2>
-          <p className="mb-8">Complete integrated security solutions and services...</p>
+          <p className="mb-8"> Wise Cyber Solution is a  </p>
         </div>
       </div>
 
@@ -39,10 +39,10 @@ function App() {
 
           {/* Additional Sections */}
           <div className="grid grid-cols-2 gap-5">
-            <div className="bg-red-200 p-4">Electro-Optical Devices</div>
-            <div className="bg-red-400 p-4">Portable Optical Devices</div>
-            <div className="bg-red-500 p-4">Wireless Multi-Sensor</div>
-            <div className="bg-red-600 p-4">Special Client Solution</div>
+            <div className="bg-red-200 p-4"> Network Security testing</div>
+            <div className="bg-red-400 p-4">Penetration Tools</div>
+            <div className="bg-red-500 p-4">Firewalls & IDEs</div>
+            <div className="bg-red-600 p-4">Quality Consultation</div>
           </div>
         </div>
       </div>
@@ -50,6 +50,7 @@ function App() {
       <div className="columns-2 bg-red-100 ml-6 mr-6 mt-4">
         <div className="container mx-auto p-8">
           <h2 className="text-3xl font-bold mb-4">Why Us?</h2>
+          <p> we are didicated...</p>
           <div className="w-full">
             <img src={image11} alt="Group 37" className="w-full" />
           </div>

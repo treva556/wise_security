@@ -47,11 +47,13 @@ function App() {
         </div>
       </div>
 
-      <div className="columns-2 bg-red-100 ml-6 mr-6 mt-4">
-        <div className="container mx-auto p-8">
+      <div className=" bg-red-100 ml-6 mr-6 mt-4">
+        <div className=" columns-2 container mx-auto p-8">
+          <div className=' col-span-1'>
           <h2 className="text-3xl font-bold mb-4">Why Us?</h2>
           <p> we are didicated...</p>
-          <div className="w-full">
+          </div>
+          <div className="w-full col-span-1">
             <img src={image11} alt="Group 37" className="w-full" />
           </div>
         </div>

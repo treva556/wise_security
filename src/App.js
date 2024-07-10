@@ -12,8 +12,8 @@ function App() {
         <div className="fixed w-full z-0 flex md:flex md:flex-grow flex-row justify-end space-x-1">
           <a href="#" className="py-4 px-2 text-red-500 border-b-4 border-red-300 font-semibold">Home</a>
           <a href="#" className="py-4 px-2 font-semibold hover:text-red-300 transition duration-300">Services</a>
-          <a href="#" className="py-4 px-2 font-semibold hover:text-red-300 transition duration-300">About</a>
-          <a href="#" className="py-4 px-2 font-semibold hover:text-red-300 transition duration-300">Contact Us</a>
+          <a href="#" className="py-4 px-2 font-semibold hover:text-red-300 transition duration-300">About Us</a>
+          <a href="#" className="py-4 px-2 font-semibold hover:text-red-300 transition duration-300">Contacts</a>
         </div>
         <div className='p-32'>
           <p className='text-7xl'>

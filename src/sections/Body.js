@@ -57,6 +57,12 @@ function Body() {
         </div>
       </div>
 
+      <div className=' bg-red-100 mr-6 ml-6 mt-3'>
+        <h4 className=' font-sans text-3xl'> Contact Us</h4>
+        <p> Phone: </p>
+        <p> Email: </p>
+      </div>
+
       <footer className="bg-red-900 text-white py-8">
         <div className="container mx-auto text-center">
           <p>Complete integrated security solutions and services to customers worldwide.</p>

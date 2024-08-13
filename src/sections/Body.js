@@ -87,7 +87,7 @@ function Body() {
       <Link to="/terms-of-service" className='text-blue-500'>Read our Terms of Service</Link>
     </div>
 
-  <div className=' grid grid-cols-1 md:grid-cols-2 bg-red-400'>
+  <div className=' grid grid-cols-1 md:grid-cols-2 bg-red-900'>
       <div className=' mt-4'>
       <h5>Newsletter Signup</h5>
       <form>
@@ -107,7 +107,7 @@ function Body() {
       </div>
       </div>
 
-      <footer className="bg-red-900 text-white py-8">
+      <footer className="bg-red-900 text-white py-2">
         <div className="container mx-auto text-center">
           <p>Complete integrated security solutions and services to customers worldwide.</p>
           <p>Contact: info@defenguard.com</p>

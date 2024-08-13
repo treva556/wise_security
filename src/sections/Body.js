@@ -25,7 +25,7 @@ function Body() {
       <div className="bg-red-100 ml-6 mr-6 z-10">
         <div className="container mx-auto p-8">
           <h2 className="text-3xl font-bold mb-4">Who We Are?</h2>
-          <p className="mb-8">Wise Cyber Solution is a...</p>
+          <p className="mb-8">Wise Cyber Solution is a...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
       </div>
 
@@ -37,6 +37,9 @@ function Body() {
             <div className="bg-red-200 p-4">Network Security testing</div>
             <div className="bg-red-400 p-4">Penetration Tools</div>
             <div className="bg-red-500 p-4">Firewalls & IDEs</div>
+            <div className="bg-red-400 p-4">Security Awareness Training</div>
+            <div className="bg-red-500 p-4"> Incident Response & Forensics </div>
+            
             <div className="bg-red-600 p-4">Quality Consultation</div>
           </div>
           <Link to="/services" className='bg-black text-white mt-6 py-2 px-4 rounded-full text-center cursor-pointer w-20'>
@@ -49,7 +52,7 @@ function Body() {
         <div className="columns-2 container mx-auto p-8">
           <div className='col-span-1'>
             <h2 className="text-3xl font-bold mb-4">Why Us?</h2>
-            <p>We are dedicated...</p>
+            <p>We are dedicated...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,.</p>
           </div>
           <div className="w-full col-span-1">
             <img src={image11} alt="Group 37" className="w-32 h-40" />
@@ -57,10 +60,21 @@ function Body() {
         </div>
       </div>
 
+      <div className='bg-red-100 ml-6 mr-6 mt-4 '>
+     <h5>  FAQ's  </h5>
+      <p>General Questions Frequently Asked Questions?</p>
+      </div>
+
+      <div className='bg-red-100 mr-6 ml-6 mt-3 ' >
+      <h6> Testimonial </h6>
+      <p>Client Feedback & Reviews</p>
+      </div>
+
       <div className=' bg-red-100 mr-6 ml-6 mt-3'>
         <h4 className=' font-sans text-3xl'> Contact Us</h4>
         <p> Phone: </p>
         <p> Email: </p>
+        <p> Location: </p>
       </div>
 
       <footer className="bg-red-900 text-white py-8">

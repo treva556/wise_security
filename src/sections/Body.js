@@ -36,7 +36,7 @@ function Body() {
           <h2 className=" c99 text-3xl font-bold mb-4">Our Services</h2>
           <p className= " c99 mb-8">Complete integrated security solutions and services...</p>
           <div className="grid grid-cols-2 gap-5 mb-6">
-            <div className="bg-red-200 p-4">Network Security testing</div>
+            <div className="bg-white p-4 border-8 border-white border-b-red-700">Network Security testing</div>
             <div className="bg-red-400 p-4">Penetration Tools</div>
             <div className="bg-red-500 p-4">Firewalls & IDEs</div>
             <div className="bg-red-400 p-4">Security Awareness Training</div>

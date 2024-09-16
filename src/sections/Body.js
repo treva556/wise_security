@@ -13,8 +13,8 @@ function Body() {
       <div className='bg-gradient-to-br from-red-800 to-gray-900   '>
        {/* bg-gradient-to-br from-blue-500 to-green-500 '> */}
         <div className="fixed w-full z-0 flex md:flex md:flex-grow flex-row justify-end space-x-1 ">
-          <Link to="/" className="py-4 px-2 text-red-500 border-b-4 border-red-300 font-semibold">Home</Link>
-          <Link to="/services" className="py-4 px-2 font-semibold hover:text-red-300 transition duration-300">Services</Link>
+          {/* <Link to="/" className="py-4 px-2 text-red-500 border-b-4 border-red-300 font-semibold">Home</Link>
+          <Link to="/services" className="py-4 px-2 font-semibold hover:text-red-300 transition duration-300">Services</Link> */}
           {/* <Link to="/about" className="py-4 px-2 font-semibold hover:text-red-300 transition duration-300">About Us</Link> */}
           {/* <Link to="/contacts" className="py-4 px-2 font-semibold hover:text-red-300 transition duration-300">Contacts</Link> */}
         </div>

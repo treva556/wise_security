@@ -33,7 +33,7 @@ function Body() {
 
       <div className=" ml-6 mr-6">
         <div className="container mx-auto p-8">
-          <h2 className=" c99 text-3xl font-bold mb-4">Our Services</h2>
+          <h2 className=" c99 text-3xl font-bold mb-4">Our Solutions</h2>
           <p className= " c99 mb-8">Complete integrated security solutions and services...</p>
           <div className="grid grid-cols-2 gap-5 mb-6">
             <div className="bg-white p-4 border-8 border-white border-b-red-700">Network Security testing</div>
@@ -62,32 +62,76 @@ function Body() {
         </div>
       </div>
 
+      {/* ll */}
+      <div class="flex flex-col md:flex-row">
+    {/* <div class="order-1 md:order-2 p-4 bg-blue-200">
+      <p>
+        GOTCHI is a speculative design project designed to incentivize a prolonged state of play via a quirky interaction method that encourages the user to manage their electronic footprint on their cellphone or computer. 
+        {/* <br>
+        We carry more digital waste than ever before (outdated pictures, documents, videos, etc.). This hoarding of digital files and lack of organization is called Digital Clutter.
+        <br> 
+        Enter GOTCHI, a homage to the traditional Japanese game Tamagotchi. He incentivizes the user to periodically delete data from their devices. By feeding GOTCHI digital clutter, the user is forced to brush through their data to decide what files to delete.
+      </p>
+      <p className=' bg-red-200'>
+        GOTCHI is a speculative design project designed to incentivize a prolonged state of play via a quirky interaction method that encourages the user to manage their electronic footprint on their cellphone or computer. 
+        {/* <br>
+        We carry more digital waste than ever before (outdated pictures, documents, videos, etc.). This hoarding of digital files and lack of organization is called Digital Clutter.
+        <br> 
+        Enter GOTCHI, a homage to the traditional Japanese game Tamagotchi. He incentivizes the user to periodically delete data from their devices. By feeding GOTCHI digital clutter, the user is forced to brush through their data to decide what files to delete.
+      </p>
+    </div>
+     */}
+    <div class="order-2 md:order-1 p-4 bg-blue-400">
+      {/* <img src="src/gotchi/video link.png" width="2104" height="3163" alt="GOTCHI Image"> */}
+    </div>
+    <div class="order-3 md:order-4 p-4 bg-blue-600">
+      <h2>IDEATION</h2>
+      <p>
+        We began the preliminary design stage on the online platform Figma. We wanted to create a design that tackled themes of consumption and waste. This topic branched out into conversations regarding the management of physical waste and digital waste. 
+        {/* <br> */}
+        One of my teammates expressed the desire to incorporate Tomogochi, a digital toy from her childhood into the design. I pitched the idea of combining it with a smart trashcan idea that we ideated over previously. This was where the idea of Gotchi originated.
+      </p>
+    </div>
+    <div class="order-4 md:order-3 p-4 bg-blue-800">
+      {/* <img src="src/gotchi/figma board.png" width="1121" height="1159" alt="Figma Board"> */}
+      <p className=' bg-red-200'>
+        GOTCHI is a speculative design project designed to incentivize a prolonged state of play via a quirky interaction method that encourages the user to manage their electronic footprint on their cellphone or computer. 
+        {/* <br>
+        We carry more digital waste than ever before (outdated pictures, documents, videos, etc.). This hoarding of digital files and lack of organization is called Digital Clutter.
+        <br> */}
+        Enter GOTCHI, a homage to the traditional Japanese game Tamagotchi. He incentivizes the user to periodically delete data from their devices. By feeding GOTCHI digital clutter, the user is forced to brush through their data to decide what files to delete.
+      </p>
+    </div>
+  </div>
+
       <div className='c99 ml-6 mr-6 mt-4 '>
      <h5>  Top Clients  </h5>
       <p></p>
       </div>
 
 
-      <div className='c99 ml-6 mr-6 mt-4 '>
-     <h5>  FAQ's  </h5>
-      <p>General Questions Frequently Asked Questions?</p>
-      </div>
+    
 
       <div className='c99 mr-6 ml-6 mt-3 ' >
       <h6> Testimonial </h6>
       <p>Client Feedback & Reviews</p>
       </div>
 
+      <div className='c99 ml-6 mr-6 mt-4 '>
+     <h5>  FAQ's  </h5>
+      <p>General Questions Frequently Asked Questions?</p>
+      </div>
+
       {/* <div className='bg-red-100 ml-6 mr-6 mt-4'>
       <h5>Privacy Policy</h5>
       <Link to="/privacy-policy" className='text-blue-500'>Read our Privacy Policy</Link>
     </div> */}
-    <div className='c99 ml-6 mr-6 mt-4'>
-      <h5>Terms of Service</h5>
-      <Link to="/terms-of-service" className='text-blue-500'>Read our Terms of Service</Link>
+    <div className='c99 mb-4 mt-4'>
+      {/* <h5>Terms of Service</h5> */}
+      <Link to="/terms-of-service" className='underline'>Terms of Service</Link>
     </div>
 
-  <div className=' grid grid-cols-1 md:grid-cols-2 bg-red-900'>
+  <div className=' grid grid-cols-1 md:grid-cols-2 bg-red-800'>
       <div className=' mt-4'>
       <h5>Newsletter Signup</h5>
       <form>
@@ -107,7 +151,7 @@ function Body() {
       </div>
       </div>
 
-      <footer className="bg-red-900 text-white py-2">
+      <footer className="bg-red-800 text-white py-2">
         <div className="container mx-auto text-center">
           <p>Complete integrated security solutions and services to customers worldwide.</p>
           <p>Contact: info@defenguard.com</p>

@@ -5,6 +5,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css'; // Assuming Tailwind CSS is configured here
 import image11 from '../assets/Group37.png';
+import Huawei from '../assets/huawei.png';
+import Oracle from '../assets/oracle.png';
+import Uber from '../assets/uber.png';
+import Unity from '../assets/unity.png';
 
 function Body() {
   return (
@@ -60,7 +64,7 @@ function Body() {
         <div className="columns-2 container mx-auto p-8">
           <div className='col-span-1'>
             <h2 className="text-3xl font-bold mb-4">Why Us?</h2>
-            <p className='c99'>We are dedicated to providing top-tier cybersecurity services that align with your business goals. Our experience, industry knowledge, and innovative solutions make us the perfect partner for securing your digital assets and infrastructure.</p>
+            <p className=''>We are dedicated to providing top-tier cybersecurity services that align with your business goals. Our experience, industry knowledge, and innovative solutions make us the perfect partner for securing your digital assets and infrastructure.</p>
           </div>
           <div className="w-full col-span-1">
             <img src={image11} alt="Group 37" className="w-64 h-60" />
@@ -72,19 +76,22 @@ function Body() {
       <div className='c99 ml-6 mr-6 mt-4'>
         <h5 className='text-3xl font-bold'>Top Clients</h5>
         <p>We have worked with numerous clients in various industries, from financial institutions to tech firms. Our solutions are trusted by leading companies across the globe.</p>
-        <div className='grid grid-cols-4 justify-center '>
+        <div className='flex gap-8 justify-center bg-red-50 p-4 '>
           <div>
-            1
-          </div>
-          <div>
-          <img src={image11} alt="Group 37" className="w-24 " />
+          <img src={Huawei} alt="Group 37" className="w-24 " />
 
           </div>
           <div>
-            3
+          <img src={Uber} alt="Group 37" className="w-24 " />
+
           </div>
           <div>
-            4
+          <img src={Unity} alt="Group 37" className="w-24 " />
+
+          </div>
+          <div>
+          <img src={Oracle} alt="Group 37" className="w-24 " />
+
           </div>
         </div>
       </div>
@@ -128,7 +135,7 @@ function Body() {
     </div>
 
 
-      <div className=' mt-3'>
+      <div className=' py-9'>
         <h4 className=' font-sans text-3xl'> Contact Us</h4>
         <p> Phone: +254713703334</p>
         <p> Email: support@wcs.com </p>

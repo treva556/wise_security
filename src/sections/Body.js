@@ -4,7 +4,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css'; // Assuming Tailwind CSS is configured here
-import image11 from '../assets/Group37.png';
+import image11 from '../assets/Group37.jpg';
 import Huawei from '../assets/huawei.png';
 import Oracle from '../assets/oracle.png';
 import Uber from '../assets/uber.png';
@@ -30,19 +30,19 @@ function Body() {
           </div>
         </div>
       </div> 
-<div className='bg45 border border-red-700 ml-6 mr-6'>  
-      <div className="c99 ml-6 mr-6 z-10">
-        <div className="container mx-auto p-8">
+       <div className='bg45 border border-red-700 ml-2 mr-2 md:mx-12 '>  
+      <div className="c99  p-2 z-10">
+        <div className="container mx-auto ">
           <h2 className="text-3xl font-bold mb-4">Who We Are?</h2>
-          <p className="mb-8">Wise Cyber Solution is a...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p className="mb-4">Wise Cyber Solution is a...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
       </div>
 
-      <div className=" ml-6 mr-6">
-        <div className="container mx-auto p-8">
+      <div className=" ">
+        <div className="container mx-auto p-1">
           <h2 className=" c99 text-3xl font-bold mb-4">Our Solutions</h2>
           <p className= " c99 mb-8">Complete integrated security solutions and services...</p>
-          <div className="grid grid-cols-2 gap-5 mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-6">
             <div className="bg-white p-4 border-8 border-white border-b-red-700">Network Security testing</div>
             <div className=" text-white  bg65 p-4">Penetration Tools</div>
             <div 
@@ -59,24 +59,29 @@ function Body() {
         </div>
       </div>
 
-     
-      <div className="bg55 ml-6 mr-6 mt-4 border border-red-700">
-        <div className="columns-2 container mx-auto p-8">
-          <div className='col-span-1'>
-            <h2 className="text-3xl font-bold mb-4">Why Us?</h2>
-            <p className=''>We are dedicated to providing top-tier cybersecurity services that align with your business goals. Our experience, industry knowledge, and innovative solutions make us the perfect partner for securing your digital assets and infrastructure.</p>
-          </div>
-          <div className="w-full col-span-1">
-            <img src={image11} alt="Group 37" className="w-64 h-60" />
-          </div>
-        </div>
-      </div>
+
+      <div className='flex bg55 flex-col md:flex-row justify-between  items-center mt-8'>
+  {/* Why Us Text */}
+  <div className="bg55 p-4 md:w-1/2">
+    <h2 className="text-3xl font-bold mb-2">Why Us?</h2> 
+    <p className="text-base leading-6"> 
+      We are dedicated to providing top-tier cybersecurity services that align with your business goals. Our experience, industry knowledge, and innovative solutions make us the perfect partner for securing your digital assets and infrastructure.
+    </p>
+  </div> 
+
+  {/* Image Section */}
+  <div className="md:w-1/2 p-4">
+    <img src={image11} alt="Group 37" className="w-full lg:h-72 " />
+  </div>
+</div>
+      
+
 
       {/* Testimonials Section */}
       <div className='c99 ml-6 mr-6 mt-4'>
         <h5 className='text-3xl font-bold'>Top Clients</h5>
         <p>We have worked with numerous clients in various industries, from financial institutions to tech firms. Our solutions are trusted by leading companies across the globe.</p>
-        <div className='flex gap-8 justify-center bg-red-50 p-4 '>
+        <div className='flex gap-8 justify-center bg-red-50 p-4 mt-4 '>
           <div>
           <img src={Huawei} alt="Group 37" className="w-24 " />
 
@@ -146,7 +151,7 @@ function Body() {
       </div>
 
       <footer className="bg-red-800 text-white py-2">
-        <div className="container mx-auto text-center">
+        <div className="container mx-auto text-center ">
           <p>Complete integrated security solutions and services to customers worldwide.</p>
           <p>Contact: info@defenguard.com</p>
         </div>

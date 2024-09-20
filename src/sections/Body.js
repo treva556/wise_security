@@ -63,7 +63,7 @@ function Body() {
             <p className='c99'>We are dedicated to providing top-tier cybersecurity services that align with your business goals. Our experience, industry knowledge, and innovative solutions make us the perfect partner for securing your digital assets and infrastructure.</p>
           </div>
           <div className="w-full col-span-1">
-            <img src={image11} alt="Group 37" className="w-32 h-40" />
+            <img src={image11} alt="Group 37" className="w-64 h-60" />
           </div>
         </div>
       </div>
@@ -72,19 +72,40 @@ function Body() {
       <div className='c99 ml-6 mr-6 mt-4'>
         <h5 className='text-3xl font-bold'>Top Clients</h5>
         <p>We have worked with numerous clients in various industries, from financial institutions to tech firms. Our solutions are trusted by leading companies across the globe.</p>
+        <div className='grid grid-cols-4 justify-center '>
+          <div>
+            1
+          </div>
+          <div>
+          <img src={image11} alt="Group 37" className="w-24 " />
+
+          </div>
+          <div>
+            3
+          </div>
+          <div>
+            4
+          </div>
+        </div>
       </div>
 
       <div className='c99 ml-6 mr-6 mt-3'>
         <h6 className='text-3xl font-bold'>Testimonial</h6>
+        <div className=' text-white'>
         <p>"Wise Cyber Solution has been a great partner in protecting our business from potential threats. Their team is highly professional and responsive to all our security needs." - John Doe, CEO of Techno Solutions</p>
+
+        </div>
       </div>
 
       {/* FAQ Section */}
       <div className='c99 ml-6 mr-6 mt-4'>
         <h5 className='text-3xl font-bold'>FAQ's</h5>
+        <div className=' text-white'>
         <p>Q: What services do you offer?<br />A: We offer a wide range of cybersecurity services including Network Security Testing, Incident Response, Penetration Testing, and more.</p>
         <p>Q: How experienced is your team?<br />A: Our team consists of highly skilled professionals with over 10 years of experience in the cybersecurity field.</p>
         <p>Q: Do you provide custom solutions?<br />A: Yes, we tailor our solutions to meet the specific needs of our clients.</p>
+        </div>
+        
       </div>
 
 

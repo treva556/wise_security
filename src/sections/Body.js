@@ -21,8 +21,11 @@ function Body() {
         <div className='p-32'>
           <p className='text-7xl'>WCS</p> 
           <p className='ml-7 text-3xl mt-3 text-yellow-50'> "Ahead of Threats"</p>
+          <div className=' flex bg-white w-48 border-2 font-mono text-sm p-2 rounded-3xl justify-start'>
+            CALL: +254788988988
+          </div>
         </div>
-      </div>
+      </div> 
 <div className='bg45 border border-red-700 ml-6 mr-6'>  
       <div className="c99 ml-6 mr-6 z-10">
         <div className="container mx-auto p-8">
@@ -37,12 +40,14 @@ function Body() {
           <p className= " c99 mb-8">Complete integrated security solutions and services...</p>
           <div className="grid grid-cols-2 gap-5 mb-6">
             <div className="bg-white p-4 border-8 border-white border-b-red-700">Network Security testing</div>
-            <div className="bg-red-400 p-4">Penetration Tools</div>
-            <div className="bg-red-500 p-4">Firewalls & IDEs</div>
-            <div className="bg-red-400 p-4">Security Awareness Training</div>
-            <div className="bg-red-500 p-4"> Incident Response & Forensics </div>
+            <div className=" text-white  bg65 p-4">Penetration Tools</div>
+            <div 
+            // style={{ border: '2px solid #121B28' }} 
+            className="bg65  p-4 text-white">Firewalls & IDEs</div>
+            <div className="bg-white p-4 border-8 border-white border-b-red-700  ">Security Awareness Training</div>
+            <div className=" bg-white p-4 border-8 border-white border-b-red-700 "> Incident Response & Forensics </div>
             
-            <div className="bg-red-600 p-4">Quality Consultation</div>
+            <div className="bg65 p-4 text-white">Quality Consultation</div>
           </div>
           <Link to="/services" className='bg-black text-white mt-6 py-2 px-4 rounded-full text-center cursor-pointer w-20'>
             More
@@ -50,11 +55,12 @@ function Body() {
         </div>
       </div>
 
+     
       <div className="bg55 ml-6 mr-6 mt-4 border border-red-700">
         <div className="columns-2 container mx-auto p-8">
           <div className='col-span-1'>
             <h2 className="text-3xl font-bold mb-4">Why Us?</h2>
-            <p className='c99'>We are dedicated...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,.</p>
+            <p className='c99'>We are dedicated to providing top-tier cybersecurity services that align with your business goals. Our experience, industry knowledge, and innovative solutions make us the perfect partner for securing your digital assets and infrastructure.</p>
           </div>
           <div className="w-full col-span-1">
             <img src={image11} alt="Group 37" className="w-32 h-40" />
@@ -62,65 +68,25 @@ function Body() {
         </div>
       </div>
 
-      {/* ll */}
-      <div class="flex flex-col md:flex-row">
-    {/* <div class="order-1 md:order-2 p-4 bg-blue-200">
-      <p>
-        GOTCHI is a speculative design project designed to incentivize a prolonged state of play via a quirky interaction method that encourages the user to manage their electronic footprint on their cellphone or computer. 
-        {/* <br>
-        We carry more digital waste than ever before (outdated pictures, documents, videos, etc.). This hoarding of digital files and lack of organization is called Digital Clutter.
-        <br> 
-        Enter GOTCHI, a homage to the traditional Japanese game Tamagotchi. He incentivizes the user to periodically delete data from their devices. By feeding GOTCHI digital clutter, the user is forced to brush through their data to decide what files to delete.
-      </p>
-      <p className=' bg-red-200'>
-        GOTCHI is a speculative design project designed to incentivize a prolonged state of play via a quirky interaction method that encourages the user to manage their electronic footprint on their cellphone or computer. 
-        {/* <br>
-        We carry more digital waste than ever before (outdated pictures, documents, videos, etc.). This hoarding of digital files and lack of organization is called Digital Clutter.
-        <br> 
-        Enter GOTCHI, a homage to the traditional Japanese game Tamagotchi. He incentivizes the user to periodically delete data from their devices. By feeding GOTCHI digital clutter, the user is forced to brush through their data to decide what files to delete.
-      </p>
-    </div>
-     */}
-    <div class="order-2 md:order-1 p-4 bg-blue-400">
-      {/* <img src="src/gotchi/video link.png" width="2104" height="3163" alt="GOTCHI Image"> */}
-    </div>
-    <div class="order-3 md:order-4 p-4 bg-blue-600">
-      <h2>IDEATION</h2>
-      <p>
-        We began the preliminary design stage on the online platform Figma. We wanted to create a design that tackled themes of consumption and waste. This topic branched out into conversations regarding the management of physical waste and digital waste. 
-        {/* <br> */}
-        One of my teammates expressed the desire to incorporate Tomogochi, a digital toy from her childhood into the design. I pitched the idea of combining it with a smart trashcan idea that we ideated over previously. This was where the idea of Gotchi originated.
-      </p>
-    </div>
-    <div class="order-4 md:order-3 p-4 bg-blue-800">
-      {/* <img src="src/gotchi/figma board.png" width="1121" height="1159" alt="Figma Board"> */}
-      <p className=' bg-red-200'>
-        GOTCHI is a speculative design project designed to incentivize a prolonged state of play via a quirky interaction method that encourages the user to manage their electronic footprint on their cellphone or computer. 
-        {/* <br>
-        We carry more digital waste than ever before (outdated pictures, documents, videos, etc.). This hoarding of digital files and lack of organization is called Digital Clutter.
-        <br> */}
-        Enter GOTCHI, a homage to the traditional Japanese game Tamagotchi. He incentivizes the user to periodically delete data from their devices. By feeding GOTCHI digital clutter, the user is forced to brush through their data to decide what files to delete.
-      </p>
-    </div>
-  </div>
-
-      <div className='c99 ml-6 mr-6 mt-4 '>
-     <h5>  Top Clients  </h5>
-      <p></p>
+      {/* Testimonials Section */}
+      <div className='c99 ml-6 mr-6 mt-4'>
+        <h5 className='text-3xl font-bold'>Top Clients</h5>
+        <p>We have worked with numerous clients in various industries, from financial institutions to tech firms. Our solutions are trusted by leading companies across the globe.</p>
       </div>
 
-
-    
-
-      <div className='c99 mr-6 ml-6 mt-3 ' >
-      <h6> Testimonial </h6>
-      <p>Client Feedback & Reviews</p>
+      <div className='c99 ml-6 mr-6 mt-3'>
+        <h6 className='text-3xl font-bold'>Testimonial</h6>
+        <p>"Wise Cyber Solution has been a great partner in protecting our business from potential threats. Their team is highly professional and responsive to all our security needs." - John Doe, CEO of Techno Solutions</p>
       </div>
 
-      <div className='c99 ml-6 mr-6 mt-4 '>
-     <h5>  FAQ's  </h5>
-      <p>General Questions Frequently Asked Questions?</p>
+      {/* FAQ Section */}
+      <div className='c99 ml-6 mr-6 mt-4'>
+        <h5 className='text-3xl font-bold'>FAQ's</h5>
+        <p>Q: What services do you offer?<br />A: We offer a wide range of cybersecurity services including Network Security Testing, Incident Response, Penetration Testing, and more.</p>
+        <p>Q: How experienced is your team?<br />A: Our team consists of highly skilled professionals with over 10 years of experience in the cybersecurity field.</p>
+        <p>Q: Do you provide custom solutions?<br />A: Yes, we tailor our solutions to meet the specific needs of our clients.</p>
       </div>
+
 
       {/* <div className='bg-red-100 ml-6 mr-6 mt-4'>
       <h5>Privacy Policy</h5>
@@ -143,9 +109,9 @@ function Body() {
 
       <div className=' mt-3'>
         <h4 className=' font-sans text-3xl'> Contact Us</h4>
-        <p> Phone: </p>
-        <p> Email: </p>
-        <p> Location: </p>
+        <p> Phone: +254713703334</p>
+        <p> Email: support@wcs.com </p>
+        <p> Location: Green Plaza, Nairobi CBD, Nairobi </p>
       </div>
       </div>
       </div>

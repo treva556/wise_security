@@ -132,7 +132,7 @@ function Body() {
       <Link to="/terms-of-service" className='underline'>Terms of Service</Link>
     </div>
 
-  <div className=' grid grid-cols-1 md:grid-cols-2 bg-red-800'>
+  <div className=' grid grid-cols-1 md:grid-cols-2 text-white bg-red-800'>
       <div className=' mt-4'>
       <h5>Newsletter Signup</h5>
       <form>

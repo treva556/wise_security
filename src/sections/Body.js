@@ -25,7 +25,7 @@ function Body() {
         <div className='p-32'>
           <p className='text-7xl'>WCS</p> 
           <p className='ml-7 text-3xl mt-3 text-yellow-50'> "Ahead of Threats"</p>
-          <div className=' flex bg-white w-48 border-2 font-mono text-sm p-2 rounded-3xl justify-start'>
+          <div className=' mt-10 flex bg-white w-48 border-2 font-mono text-sm p-2 rounded-3xl justify-start'>
             CALL: +254788988988
           </div>
         </div>
@@ -73,7 +73,7 @@ function Body() {
   <div className="md:w-1/2 p-4">
     <img src={image11} alt="Group 37" className="w-full lg:h-72 " />
   </div>
-</div>
+  </div>
       
 
 
@@ -113,9 +113,11 @@ function Body() {
       <div className='c99 ml-6 mr-6 mt-4'>
         <h5 className='text-3xl font-bold'>FAQ's</h5>
         <div className=' text-white'>
-        <p>Q: What services do you offer?<br />A: We offer a wide range of cybersecurity services including Network Security Testing, Incident Response, Penetration Testing, and more.</p>
+        <p className=' font-bold'>Q: What services do you offer?</p>
+        <p>A: We offer a wide range of cybersecurity services including Network Security Testing, Incident Response, Penetration Testing, and more.</p>
         <p>Q: How experienced is your team?<br />A: Our team consists of highly skilled professionals with over 10 years of experience in the cybersecurity field.</p>
-        <p>Q: Do you provide custom solutions?<br />A: Yes, we tailor our solutions to meet the specific needs of our clients.</p>
+        <p className=' font-bold'>Q: Do you provide custom solutions?</p>
+        <p>A: Yes, we tailor our solutions to meet the specific needs of our clients.</p>
         </div>
         
       </div>
